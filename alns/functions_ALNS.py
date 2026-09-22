@@ -860,8 +860,7 @@ class ALNS:
         
         
         iteration = 0
-        #while execution_time < self.max_time_alns:
-        while iteration < 221:
+        while execution_time < self.max_time_alns:
             
             iteration += 1
             print("Iteration: ", iteration)
