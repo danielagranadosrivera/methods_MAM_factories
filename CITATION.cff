@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "offshore-mam-factories-dataset"
+message: "If you use this dataset, please cite it as below."
+type: dataset
+authors:
+  - family-names: "Granados-Rivera"
+    given-names: "Daniela"
+    affiliation: "Department of Industrial and Systems Engineering, Auburn University"
+    orcid: "https://orcid.org/0000-0002-8189-1794"
+  - family-names: "Silva"
+    given-names: "Daniel F."
+    affiliation: "Department of Industrial and Systems Engineering, Auburn University"
+    orcid: "https://orcid.org/0000-0002-4776-4476"
+  - family-names: "Smith"
+    given-names: "Alice E."
+    affiliation: "Department of Industrial and Systems Engineering, Auburn University"
+    orcid: "https://orcid.org/0000-0001-8808-0663"
+  - family-names: "Sgarbossa"
+    given-names: "Fabio"
+    affiliation: "Department of Mechanical and Industrial Engineering, Norwegian University of Science and Technology"
+    orcid: "https://orcid.org/0000-0002-9541-3515"
+  - family-names: "Knofius"
+    given-names: "Nils"
+    affiliation: "Fieldmade AS"
+identifiers:
+  - type: doi
+    value: 10.1080/00207543.2025.2540454
+    description: "DOI corresponding to the article where the dataset was employed."
+url: "https://github.com/danielagranadosrivera/offshore-mam-factories-dataset"
+license: "CC-BY-4.0"
+date-released: 2025-08-06
+version: 1.0.0
