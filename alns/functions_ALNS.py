@@ -5,7 +5,6 @@ from initialization_routes import *
 from datetime import datetime
 from datetime import timedelta
 import copy
-import pdb
 
 
 # class solution to keep track of the metaheuristic
