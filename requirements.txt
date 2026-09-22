@@ -1,0 +1,22 @@
+# Python 3.6.13 required (tested environment)
+# Install using: pip install -r requirements.txt
+
+# Core optimization - requires IBM CPLEX installation
+# doopl is installed via conda from IBM Decision Optimization channel:
+# conda install -c ibmdecisionoptimization doopl=12.10.0.26
+doopl==12.10.0.26
+
+# Data manipulation
+numpy==1.19.5
+pandas==1.1.5
+
+# Visualization
+matplotlib==3.3.4
+seaborn==0.11.2
+
+# Scientific computing
+scipy==1.5.4
+
+# Date utilities (pandas dependency)
+python-dateutil==2.9.0.post0
+pytz==2024.1
