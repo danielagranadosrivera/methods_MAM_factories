@@ -866,9 +866,6 @@ class ALNS:
             iteration += 1
             print("Iteration: ", iteration)
             
-            #if iteration == 87:
-            #    pdb.set_trace()
-            
             # select a destroy operator and repair operator
             selected_destroy = self.rng_choice.choice(len(self.destroy_operators), p=self.p_destroy)
             selected_repair = self.rng_choice.choice(len(self.repair_operators), p=self.p_repair)
