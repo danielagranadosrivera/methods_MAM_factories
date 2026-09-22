@@ -1,7 +1,7 @@
 cff-version: 1.2.0
-title: "offshore-mam-factories-dataset"
-message: "If you use this dataset, please cite it as below."
-type: dataset
+title: "Two-Stage Matheuristic and ALNS for Drone-Enhanced Offshore Spare Parts Logistics Using Mobile Additive Manufacturing"
+message: "If you use this code, please cite the associated paper."
+type: software
 authors:
   - family-names: "Granados-Rivera"
     given-names: "Daniela"
@@ -26,7 +26,8 @@ identifiers:
   - type: doi
     value: 10.1080/00207543.2025.2540454
     description: "DOI corresponding to the article where the dataset was employed."
-url: "https://github.com/danielagranadosrivera/offshore-mam-factories-dataset"
-license: "CC-BY-4.0"
+repository-code: "https://github.com/danielagranadosrivera/methods_MAM_factories"
+url: "https://github.com/danielagranadosrivera/methods_MAM_factories"
+license: MIT
 date-released: 2025-08-06
 version: 1.0.0
