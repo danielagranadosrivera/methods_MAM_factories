@@ -216,3 +216,33 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# CPLEX and OPL specific files
+*.lp
+*.mps
+cplex.log
+*.clp
+*.oplrun
+*.sol
+*.ops.log
+
+# Output folders
+matheuristic/data/output/
+alns/data/output/
+
+# Anaconda/conda environment
+.conda/
+conda-meta/
+pyvenv.cfg
+_virtualenv.py
+
+# PyCharm 
+# .idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large result files
+*.pkl
