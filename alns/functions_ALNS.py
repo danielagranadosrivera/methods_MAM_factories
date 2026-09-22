@@ -836,7 +836,7 @@ class ALNS:
         self.repair_operators = repair_operators 
         self.weights_destroy = weights_destroy
         self.weights_repair = weights_repair
-        self.p_destroy = weights_destroy / np.sum(weights_destroy)
+        self.p_destroy = np.array(weights_destroy) / np.sum(weights_destroy)
         self.p_repair = weights_repair / np.sum(weights_repair)
         self.updating_period = updating_period
         self.alpha_sa = alpha_sa
