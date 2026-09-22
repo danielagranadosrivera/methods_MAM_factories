@@ -1,0 +1,25 @@
+Parameters,
+Number of drones,1
+Periods,30
+CR_f,2000
+CR_v,5.42
+CP_f,0.06
+CT,5
+CT1,2.5
+CT2,2.5
+CT3,500
+CT4,200
+V_average,80
+r_estimation,0.3
+M,100000
+MA,90000
+tau,20
+gamma,80
+MT,12
+delta,400
+Speed ship,20
+Demand days,30
+Overlap_final,0
+Rolling horizon,0
+Overlap_ini,0
+CB,500
