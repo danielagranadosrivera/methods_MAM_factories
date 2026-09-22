@@ -317,7 +317,7 @@ def production_cost_calculation(y_hat, alpha, CP_f, Set_p):
     y_hat_cost = y_hat[y_hat.Value > 0]
     CP_f = float(CP_f[0])
     production_cost = 0
-    alpha = np.genfromtxt(r"data\input\alpha.csv", delimiter=',', skip_header=True).astype("float")
+    alpha = np.genfromtxt(os.path.join("data", "input", "alpha.csv"), delimiter=',', skip_header=True).astype("float")
 
     for i in range(len(y_hat_cost)):
 
