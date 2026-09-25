@@ -72,7 +72,7 @@ methods_MAM_factories/
 ### Two-Stage Matheuristic
 
 **Stage 1: Strategic planning (exact MILP via CPLEX/OPL):**
-Solves relocation and production decisions or the entire planning horizon. Uses estimated transportation costs to avoid routing complexity. Runs in under one minute for realistic instances.
+Solves relocation and production decisions for the entire planning horizon. Uses estimated transportation costs to avoid routing complexity. Runs in under one minute for realistic instances.
 
 **Stage 2: Operational planning (rolling horizon decomposition):**
 Given fixed relocation and production decisions from Stage 1, optimizes distribution mode selection and drone routing week-by-week using a rolling horizon approach. Each weekly subproblem is solved exactly.
