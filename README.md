@@ -15,29 +15,44 @@ This repository contains the implementation of a **Two-stage Matheuristic** and 
 ---
 ## Problem Description
 
+This work addresses the integrated optimization of:
+- **Mobile Additive Manufacturing (MAM) factory relocation**: Decisions of when and where to move MAM factories along the planning horizon.
+- **Production Planning**: Definition of which spare parts to produce at each MAM factory and when to produce them.
+- **Multimodal distribution**: Selection of the transportation model to ship the spare parts. The modes include drone or a two-echelon structure of truck and ship.
+- **Drone routing**: Design of the optimal drone routes to ship the spare parts to the offshore oil platforms.
+
+The objective is to minimize total cost including relocation cost, production cost, transportation cost, and late delivery penalties across a multi-period planning horizon.
+
 ---
 
 ## Repository Structure
 
 ```
-offshore-mam-factories-dataset-main/
+methods_MAM_factories/
 │
 ├── README.md
 ├── LICENSE
 ├── CITATION.cff
+├── requirements.txt
 │
-└── data/
-    ├── case_study/
-    │   ├── demand_distribution_1/
-    │   ├── demand_distribution_2/
-    │   ├── demand_distribution_3/
-    │   └── demand_distribution_4/
-    │
-    └── numerical_experiments/
-        ├── small_instance_1/
-        ├── small_instance_2/
-        ├── medium_instance_1/
-        └── medium_instance_2/
+├── matheuristic/                                # Two stage matheuristic implementation
+│   ├── MobileFactories_MultipleCB_Warmup.py     # Main file
+│   ├── First_Stage.py                           # First stage: relocation and production decisions
+│   ├── warmup_first.py                          # Warmup procedure to generate initial feasible solutions
+│   ├── Second_Stage_Ini_Warmup.py               # Second stage initialization for the first rolling horizon window
+│   ├── Second_Stage_Decomposition.py            # Rolling horizon decomposition for the second stage
+│   ├── functions.py                             # Utility functions (distances, costs, data formatting)
+│   └── data/
+│       ├── input/
+│       ├── models/
+│       └── output/
+│
+├── alns/
+
+└── sample_data/
+    └── small_instance_1/
+
+    
 ```
 
 
