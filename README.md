@@ -1,20 +1,19 @@
 # Methods used for “Drone-enhanced offshore spare part fulfilment using mobile additive manufacturing factories and multi-modal delivery”
 
-[![DOI](https://img.shields.io/badge/DOI-10.1080%2F00207543.2025.2540454-blue)](https://doi.org/10.1080/00207543.2025.2540454)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![DOI](https://img.shields.io/badge/DOI-10.1080%2F00207543.2025.2540454-blue)](https://doi.org/10.1080/00207543.2025.2540454)
 
 ## Overview
 
-This repository contains the datasets used in the study **“Drone-enhanced offshore spare part fulfilment using mobile additive manufacturing factories and multi-modal delivery”**, published in the *International Journal of Production Research*.
+This repository contains the implementation of a **Two-stage Matheuristic** and a **Adaptive Large Neighborhood Search (ALNS)**. Both methods were employed in the study **“Drone-enhanced offshore spare part fulfilment using mobile additive manufacturing factories and multi-modal delivery”**, published in the *International Journal of Production Research*.
 
 > **Associated Paper**
 >
 > Granados-Rivera, D., Silva, D. F., Smith, A. E., Sgarbossa, F., & Knofius, N. (2025). *Drone-enhanced offshore spare part fulfilment using mobile additive manufacturing factories and multi-modal delivery*. International Journal of Production Research, 1–26. https://doi.org/10.1080/00207543.2025.2540454
 
-The dataset supports both **numerical experiments** for matheuristic validation and benchmarking, as well as the **case study**, enabling the evaluation of different instance sizes, factory capabilities, numbers of drones, penalty costs, and demand distributions.
-
-All data are provided in **CSV format** and are organized to facilitate reproducibility of computational experiments and validation of the optimization models.
+---
+## Problem Description
 
 ---
 
