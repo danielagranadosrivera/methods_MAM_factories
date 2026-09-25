@@ -1,6 +1,6 @@
 # Methods used for “Drone-enhanced offshore spare part fulfilment using mobile additive manufacturing factories and multi-modal delivery”
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-grey.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.6](https://img.shields.io/badge/python-3.6-yellow.svg)](https://www.python.org/downloads/release/python-360/)
 [![DOI](https://img.shields.io/badge/DOI-10.1080%2F00207543.2025.2540454-blue)](https://doi.org/10.1080/00207543.2025.2540454)
 
