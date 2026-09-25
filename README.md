@@ -38,7 +38,7 @@ methods_MAM_factories/
 ├── matheuristic/                                 # Two stage matheuristic implementation
 │   ├── MobileFactories_MultipleCB_Warmup.py      # Main file
 │   ├── First_Stage.py                            # First stage: relocation and production decisions
-│   ├── warmup_first.py                           # Warmup procedure to generate initial feasible solutions
+│   ├── warmup_firstpart.py                       # Warmup procedure to generate initial feasible solutions
 │   ├── Second_Stage_Ini_Warmup.py                # Second stage initialization for the first rolling horizon window
 │   ├── Second_Stage_Decomposition.py             # Rolling horizon decomposition for the second stage
 │   ├── functions.py                              # Utility functions (distances, costs, data formatting)
